@@ -17,7 +17,7 @@
 ### Run your First Test
 1. Clone the Lamda-Test-Certification repository. 
 ```
-git clone https://github.com/Lamda-Test-Certification
+git clone https://github.com/SanthoshMukthyala/Lamda-Test-Certification.git
 ```
 2. Next get into Lamda-Test-Certification folder, and import Lamabdatest Credentials. You can get these from lambdatest automation dashboard.
    <p align="center">
