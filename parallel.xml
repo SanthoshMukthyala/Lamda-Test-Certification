@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="20" parallel="tests" name="Suite">
+  <test thread-count="20" parallel="classes" name="Test">
+    <classes>
+      <class name="com.lambdatest.TestNGMac"/>
+      <class name="com.lambdatest.TestNGChrome"/>
+      <class name="com.lambdatest.TestNGTodo3"/>
+    </classes>
+  </test> <!-- Test -->
+  
+	<test name="WIN10TEST">
+        <parameter name="browser" value="Chrome" />
+        <parameter name="version" value="92.0" />
+        <parameter name="platform" value="Windows 10" />
+        <parameter name="resolution" value="1024x768" />
+        <classes>
+          <class name="com.lambdatest.Tests.ParallelTest" />  
+        </classes>
+    </test>
+
+    <test name="MACTEST">
+        <parameter name="browser" value="Opera" />
+        <parameter name="version" value="84.0" />
+        <parameter name="platform" value="Windows 10" />
+        <parameter name="resolution" value="1024x768" />
+        <classes>
+          <class name="com.lambdatest.Tests.ParallelTest" />  
+        </classes>
+    </test>
+  
+</suite> <!-- Suite -->
